@@ -1,20 +1,20 @@
 <?php
 
 
-Class Video
+class Video
 {
-	private $_id; 
+	private $_id;
 	private $_characters; //array of id
 	private $_video_link;
 
-		
 
 
-		/**
-		* @param name
-		* @param firstname
-		*/
-	public function __construct(String $id, Array $chara, String $link)
+
+	/**
+	 * @param name
+	 * @param firstname
+	 */
+	public function __construct($id,  $chara,  $link)
 	{
 		$this->_id = $id;
 		$this->_characters = $chara;
@@ -35,17 +35,8 @@ Class Video
 		return $this->_characters;
 	}
 
-		public function getLink()
+	public function getLink()
 	{
 		return $this->_video_link;
 	}
-
-
-
-
-
-  
-
 }
-
-?>

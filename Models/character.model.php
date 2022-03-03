@@ -1,9 +1,9 @@
 <?php
 
 
-Class Character
+class Character
 {
-    private $_id;
+     private $_id;
      private $_name;
      private $_firstName;
      private $_age;
@@ -12,40 +12,51 @@ Class Character
      private $_birthday;
      private $_specie;
      private $_likes;
-     private $_dislikes; 
-     private $_relations;//array
+     private $_dislikes;
+     private $_relations; //array
      private $_backstory;
-		 private $_description;
-		 private $_pictures; //array
-		 private $_thumbnail;
-     
+     private $_description;
+     private $_pictures; //array
+     private $_thumbnail;
+
 
 
      /**
       * @param name
       * @param firstname
       */
-     public function __construct(String $id,String $name,
-		 		String $firstname,int $age, int $height, String $gender,
-				String $bd,String $specie,String $likes,
-				String $dislikes, Array $relations, String $bkStory, String $desc,Array $pictures, String $thumbnail)
-			{
+     public function __construct(
+          $id,
+          $name,
+          $firstname,
+          $age,
+          $height,
+          $gender,
+          $bd,
+          $specie,
+          $likes,
+          $dislikes,
+          $relations,
+          $bkStory,
+          $desc,
+          $pictures,
+          $thumbnail
+     ) {
           $this->_name = $name;
           $this->_firstName = $firstname;
-          $this->_id=$id;
-          $this->_age= $age;
+          $this->_id = $id;
+          $this->_age = $age;
           $this->_height = $height;
-          $this->_gender =$gender;
+          $this->_gender = $gender;
           $this->_birthday = $bd;
           $this->_specie = $specie;
           $this->_likes = $likes;
           $this->_dislikes = $dislikes;
           $this->_relations = $relations;
           $this->_backstory = $bkStory;
-					$this->_description = $desc;
-					$this->_pictures = $pictures;
-					$this->_thumbnail = $thumbnail;
-
+          $this->_description = $desc;
+          $this->_pictures = $pictures;
+          $this->_thumbnail = $thumbnail;
      }
 
 
@@ -63,84 +74,79 @@ Class Character
      /**
       * @return _fistname
       */
-      public function getFirstName()
-      {
-           return $this->_firstName;
-      }
+     public function getFirstName()
+     {
+          return $this->_firstName;
+     }
 
-      /**
+     /**
       * @return _id
       */
-      public function getID()
-      {
-           return $this->_id;
-      }
-      
-      /**
-       * @return _age
-       */
-      public function getAge()
-      {
-           return $this->_age;
-      }
+     public function getID()
+     {
+          return $this->_id;
+     }
 
-      public function getHeight()
-      {
-           return $this->_height;
-      }
+     /**
+      * @return _age
+      */
+     public function getAge()
+     {
+          return $this->_age;
+     }
 
-      public function getGender()
-      {
-           return $this->_gender;
-      }
-      
-      public function getBirthday()
-      {
-           return $this->_birthday;
-      }
+     public function getHeight()
+     {
+          return $this->_height;
+     }
 
-      public function getSpecie()
-      {
-           return $this->_specie;
-      }
-			
-      public function getLikes()
-      {
-           return $this->_likes;
-      }
+     public function getGender()
+     {
+          return $this->_gender;
+     }
 
-      public function getDislikes()
-      {
-           return $this->_dislikes;
-      }
+     public function getBirthday()
+     {
+          return $this->_birthday;
+     }
 
-      public function getRelations()
-      {
-           return $this->_relations;
-      }
+     public function getSpecie()
+     {
+          return $this->_specie;
+     }
 
-      public function getBackStory()
-      {
-           return $this->_backstory;
-      }
-			
-			public function getDescription()
-      {
-           return $this->_description;
-      }
+     public function getLikes()
+     {
+          return $this->_likes;
+     }
 
-			public function getPictures()
-      {
-           return $this->_pictures;
-      }
+     public function getDislikes()
+     {
+          return $this->_dislikes;
+     }
 
-			public function getThumbnail()
-      {
-           return $this->_thumbnail;
-      }
+     public function getRelations()
+     {
+          return $this->_relations;
+     }
 
-  
+     public function getBackStory()
+     {
+          return $this->_backstory;
+     }
 
+     public function getDescription()
+     {
+          return $this->_description;
+     }
+
+     public function getPictures()
+     {
+          return $this->_pictures;
+     }
+
+     public function getThumbnail()
+     {
+          return $this->_thumbnail;
+     }
 }
-
-?>

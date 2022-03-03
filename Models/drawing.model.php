@@ -1,7 +1,7 @@
 <?php
 
 
-Class Drawing
+class Drawing
 {
 	private $_id; //year_month_number
 	private $_characters; //array of id
@@ -14,45 +14,57 @@ Class Drawing
 	private $_month;
 	private $_drawinglink;
 
-		
 
 
-		/**
-		* @param name
-		* @param firstname
-		*/
-	public function __construct(int $number, Array $chara, String $artist, String $artistlink, String $event, String $fanart, String $fanartlink, int $year, String $month,String $link)
+
+	/**
+	 * @param name
+	 * @param firstname
+	 */
+	public function __construct($number,  $chara,  $artist,  $artistlink,  $event,  $fanart,  $fanartlink,  $year,  $month, $link)
 	{
 		$monthNumber = "";
 
-		switch($month)
-		{
-			case "Junary" :	$monthNumber = "01";
-											break;
-			case "February" :	$monthNumber = "02";
-											break;
-			case "March" :	$monthNumber = "03";
-											break;
-			case "April" :	$monthNumber = "04";
-											break;
-			case "May" :	$monthNumber = "05";
-											break;
-			case "June" :	$monthNumber = "06";
-											break;
-			case "July" :	$monthNumber = "07";
-											break;
-			case "August" :	$monthNumber = "08";
-											break;
-			case "September" :	$monthNumber = "09";
-											break;
-			case "October" :	$monthNumber = "10";
-											break;
-			case "November" :	$monthNumber = "11";
-											break;
-			case "December" :	$monthNumber = "12";
-											break;
-			default :	$monthNumber = "99";
-											break;
+		switch ($month) {
+			case "Junary":
+				$monthNumber = "01";
+				break;
+			case "February":
+				$monthNumber = "02";
+				break;
+			case "March":
+				$monthNumber = "03";
+				break;
+			case "April":
+				$monthNumber = "04";
+				break;
+			case "May":
+				$monthNumber = "05";
+				break;
+			case "June":
+				$monthNumber = "06";
+				break;
+			case "July":
+				$monthNumber = "07";
+				break;
+			case "August":
+				$monthNumber = "08";
+				break;
+			case "September":
+				$monthNumber = "09";
+				break;
+			case "October":
+				$monthNumber = "10";
+				break;
+			case "November":
+				$monthNumber = "11";
+				break;
+			case "December":
+				$monthNumber = "12";
+				break;
+			default:
+				$monthNumber = "99";
+				break;
 		}
 
 		$this->_id = $year . "_" . $monthNumber . "_" . $number;
@@ -116,17 +128,8 @@ Class Drawing
 		return $this->_month;
 	}
 
-		public function getLink()
+	public function getLink()
 	{
 		return $this->_drawinglink;
 	}
-
-
-
-
-
-  
-
 }
-
-?>
