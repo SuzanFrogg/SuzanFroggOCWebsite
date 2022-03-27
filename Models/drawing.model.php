@@ -13,6 +13,7 @@ class Drawing
 	private $_year;
 	private $_month;
 	private $_drawinglink;
+	private $_nswf;
 
 
 
@@ -21,7 +22,7 @@ class Drawing
 	 * @param name
 	 * @param firstname
 	 */
-	public function __construct($number,  $chara,  $artist,  $artistlink,  $event,  $fanart,  $fanartlink,  $year,  $month, $link)
+	public function __construct($number,  $chara,  $artist,  $artistlink,  $event,  $fanart,  $fanartlink,  $year,  $month, $link, $nswf = false)
 	{
 		$monthNumber = "";
 
@@ -77,6 +78,7 @@ class Drawing
 		$this->_year = $year;
 		$this->_month = $month;
 		$this->_drawinglink = $link;
+		$this->_nswf = $nswf;
 	}
 
 
@@ -131,5 +133,10 @@ class Drawing
 	public function getLink()
 	{
 		return $this->_drawinglink;
+	}
+
+	public function getNSFW()
+	{
+		return $this->_nswf;
 	}
 }
