@@ -56,6 +56,17 @@ class DrawingManager
 		$drawing = new Drawing(6, array("_Amset", "_Jun"), "", "", "", "", "", 2018, "July", "https://pre00.deviantart.net/b41e/th/pre/i/2018/205/f/2/amset_et_jun_en_depression_by_suzanfrogg-dci4q01.png");
 		array_push($this->_arrayDrawing, $drawing);
 
+		$drawing = new Drawing(7, array("_Naly"), "", "", "","", "", 2018, "July", "https://pre00.deviantart.net/d609/th/pre/i/2018/208/f/7/dancing_naly_by_suzanfrogg-dciexmc.png");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(8, array("_Ash"), "", "", "","", "", 2018, "July", "https://pre00.deviantart.net/de07/th/pre/i/2018/209/3/7/bobybuilding_ash_by_suzanfrogg-dcii4ip.png");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(9, array("_Amset"), "", "", "","", "", 2018, "July", "https://img00.deviantart.net/5e6e/i/2018/210/0/9/gardening_amet__by_suzanfrogg-dcilkaa.png");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(10, array("Hona_Satoru"), "", "", "","", "", 2018, "July", "https://pbs.twimg.com/media/DjNE_61XgAAi1-2.jpg:large");
+		array_push($this->_arrayDrawing, $drawing);
 
 		$drawing = new Drawing(1, array("_Amset"), "", "", "", "", "", 2018, "August", "https://pre00.deviantart.net/ec8f/th/pre/f/2018/210/0/d/pp_page_fb_juillet_2018__g_by_suzanfrogg-dcim787.png");
 		array_push($this->_arrayDrawing, $drawing);
@@ -79,6 +90,12 @@ class DrawingManager
 		array_push($this->_arrayDrawing, $drawing);
 
 		$drawing = new Drawing(4, array("Ewana_Tori"), "", "", "","", "", 2018, "September", "https://pbs.twimg.com/media/DpaneL7XoAIesjj.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(5, array("Nina_Saki"), "", "", "","", "", 2018, "September", "https://pbs.twimg.com/media/DpanY6rXcAEqx0U.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(6, array("Lewis_Ruby","Lewis_Mary"), "", "", "","", "", 2018, "September", "https://pbs.twimg.com/media/DpanbfRXcAA9gbL.jpg");
 		array_push($this->_arrayDrawing, $drawing);
 
 		$drawing = new Drawing(1, array("_Naly"), "", "", "Inktober", "Hatsune Miku", "https://vocaloid.fandom.com/wiki/Hatsune_Miku", 2018, "October", "https://pre00.deviantart.net/f892/th/pre/i/2018/287/4/a/p_20181014_001336_1_by_suzanfrogg-dcpegih.jpg");
