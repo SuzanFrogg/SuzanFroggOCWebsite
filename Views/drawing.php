@@ -54,11 +54,11 @@
 						echo "<div class=\"imageOC\"><img src=\"". $draw->getLink() ."\"/>
 									<br/> Made in ". $draw->getMonth() . " " . $draw->getYear();
 						if($draw->getArtist() != "")
-							echo"<br/>Artist: <a href=\"". $draw->getArtistLink() ."\">". $draw->getArtist() ."</a>";
+							echo"<br/>Artist: <a href=\"". $draw->getArtistLink() ."\" target=\"_blank\">". $draw->getArtist() ."</a>";
 						if($draw->getEvent() != "")
 							echo"<br/>Context: " .$draw->getEvent() ;
 						if($draw->getFanArt() != "")
-							echo"<br/>Fan Art: <a href=\"". $draw->getFanArtLink() ."\">". $draw->getFanArt() ."</a>";
+							echo"<br/>Fan Art: <a href=\"". $draw->getFanArtLink() ."\" target=\"_blank\">". $draw->getFanArt() ."</a>";
 						echo "<br/></div>";
 
 
@@ -88,16 +88,16 @@
 			<?php //Liens Perso
 				switch(get_class($oc))
 							{
-								case Character:
+								case 'Character':
 											echo "<a href=character/profilBASE.php?id=" .  $oc->getID() .">Refsheet</a>";
 											break;
-								case CharacterAM:
+								case 'CharacterAM':
 											echo "<a href=character/profilAM.php?id=" . $oc->getID() .">Refsheet</a>";
 											break;
-								case CharacterUndertale:
+								case 'CharacterUndertale':
 											echo "<a href=character/profilUndertale.php?id=" . $oc->getID() .">Refsheet</a>";
 											break;
-								case CharacterHNK:
+								case 'CharacterHNK':
 											echo "<a href=character/profilHNK.php?id=" . $oc->getID() .">Refsheet</a>";
 											break;
 								default : 

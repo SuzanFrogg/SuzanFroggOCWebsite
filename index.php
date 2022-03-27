@@ -4,14 +4,14 @@
 require_once("utils.php");
 
 require_once("Controllers/character.controller.php");
-//include_once("Controllers/video.controller.php");
-//include_once("Controllers/drawing.controller.php");
+include_once("Controllers/video.controller.php");
+include_once("Controllers/drawing.controller.php");
 
 require_once("Models/character.model.php");
-//include_once("Models/video.model.php");
+include_once("Models/video.model.php");
 require_once("Models/character.am.model.php");
 require_once("Models/character.undertale.model.php");
-//include_once("Models/drawing.model.php");
+include_once("Models/drawing.model.php");
 require_once("Models/character.hnk.model.php");
 
 

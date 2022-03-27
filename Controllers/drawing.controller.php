@@ -1,7 +1,5 @@
 <?php
 
-//include_once("../../Models/drawing.model.php");
-
 
 class DrawingManager
 {
@@ -80,7 +78,10 @@ class DrawingManager
 		$drawing = new Drawing(3, array("Ewana_Tomoyo", "Ewana_Tori", "Ewana_Domma", "Ewana_Lyci"), "", "", "", "", "", 2018, "September", "https://pre00.deviantart.net/d2de/th/pre/f/2018/266/a/4/portrais_de_famille_ewana__g_by_suzanfrogg-dcnkgfo.png");
 		array_push($this->_arrayDrawing, $drawing);
 
-		$drawing = new Drawing(1, array("_Naly"), "", "", "Inktober", "Hatsune Miku", "http://iphoto.ipeen.com.tw/photo/ipeen/200x200/def/3/5/0/1185053/1185053_20161026211050_4937.jpg", 2018, "October", "https://pre00.deviantart.net/f892/th/pre/i/2018/287/4/a/p_20181014_001336_1_by_suzanfrogg-dcpegih.jpg");
+		$drawing = new Drawing(4, array("Ewana_Tori"), "", "", "","", "", 2018, "September", "https://pbs.twimg.com/media/DpaneL7XoAIesjj.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(1, array("_Naly"), "", "", "Inktober", "Hatsune Miku", "https://vocaloid.fandom.com/wiki/Hatsune_Miku", 2018, "October", "https://pre00.deviantart.net/f892/th/pre/i/2018/287/4/a/p_20181014_001336_1_by_suzanfrogg-dcpegih.jpg");
 		array_push($this->_arrayDrawing, $drawing);
 
 		$drawing = new Drawing(2, array("_Sha"), "", "", "", "", "", 2018, "October", "https://pre00.deviantart.net/69ab/th/pre/f/2018/279/6/c/let_s_start_by_suzanfrogg-dcoqg6m.png");
@@ -98,7 +99,40 @@ class DrawingManager
 		$drawing = new Drawing(6, array("Lewis_Ruby"), "", "", "", "", "", 2018, "October", "https://66.media.tumblr.com/d374fa78f138534d2fda40970cc43199/tumblr_pguv23JLQn1xqee2jo1_1280.png");
 		array_push($this->_arrayDrawing, $drawing);
 
+		$drawing = new Drawing(7, array("_Ash"), "", "", "Inktober","Mikasa Arckerman", "https://attaque-des-titans.fandom.com/fr/wiki/Mikasa_Ackerman", 2018, "October", "https://pre00.deviantart.net/4cae/th/pre/i/2018/287/a/0/p_20181014_003300_by_suzanfrogg-dcpeghi.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(8, array("Nina_Saki"), "", "", "Inktober","Undertaker", "https://kuroshitsuji.fandom.com/fr/wiki/Undertaker", 2018, "October", "https://pre00.deviantart.net/47c1/th/pre/i/2018/287/8/8/p_20181014_011145_1_by_suzanfrogg-dcpeggw.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(9, array("Hona_Satoru"), "", "", "Inktober","Victor", "https://yuri-on-ice.fandom.com/fr/wiki/Victor_Nikiforov", 2018, "October", "https://pre00.deviantart.net/55a9/th/pre/i/2018/287/6/4/p_20181014_014447_1_by_suzanfrogg-dcpegga.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(10, array("_Sha"), "", "", "Inktober","Echo", "https://mochijun.fandom.com/wiki/Echo", 2018, "October", "https://pre00.deviantart.net/7f16/th/pre/i/2018/287/4/0/p_20181014_023143_1_by_suzanfrogg-dcpegfu.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(11, array("Sera_Akio"), "", "", "Inktober","Uta", "https://tokyoghoul.fandom.com/fr/wiki/Uta", 2018, "October", "https://pre00.deviantart.net/711c/th/pre/i/2018/287/b/a/p_20181014_024618_by_suzanfrogg-dcpeges.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(12, array("Merry_Miranda"), "", "", "Inktober","Nausicaä", "https://nausicaa.fandom.com/wiki/Nausicaä", 2018, "October", "https://pre00.deviantart.net/f55c/th/pre/i/2018/287/3/0/p_20181014_113305_1_by_suzanfrogg-dcpege4.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(13, array("_Jack"), "", "", "Inktober","Aoba", "https://dmmd.fandom.com/wiki/Aoba_Seragaki", 2018, "October", "https://pre00.deviantart.net/eb4a/th/pre/i/2018/287/8/a/p_20181014_123901_1_by_suzanfrogg-dcpegdr.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(14, array("_Laly"), "", "", "Inktober","Tsuyu", "https://myheroacademia.fandom.com/wiki/Tsuyu_Asui", 2018, "October", "https://pre00.deviantart.net/4315/th/pre/i/2018/287/f/7/p_20181014_125555_1_by_suzanfrogg-dcpegd7.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(15, array("Nina_Rira"), "", "", "Inktober","Edward Elric", "https://fullmetalalchemist.fandom.com/fr/wiki/Edward_Elric#Manga_", 2018, "October", "https://pbs.twimg.com/media/DqBucceX4AAzj6W.jpg:large");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(16, array("Dass_Tsyna"), "", "", "Inktober","Ram", "https://rezero.fandom.com/wiki/Ram", 2018, "October", "https://pbs.twimg.com/media/Dqym_3_WsAUWQpc.jpg");
+		array_push($this->_arrayDrawing, $drawing);
+		
 		$drawing = new Drawing(1, array("_Ash", "_Naly", "_Amset", "Nina_Saki", "Nina_Rira", "Shido_Akio", "Shido_Sera"), "", "", "", "", "", 2018, "November", "https://img00.deviantart.net/6a4b/i/2018/319/5/7/nina_s_squad_by_suzanfrogg-dcs2n6y.png");
+		array_push($this->_arrayDrawing, $drawing);
+
+		$drawing = new Drawing(2, array("_Jun"), "", "", "","", "", 2018, "November", "https://pbs.twimg.com/media/Dr1deCbW4AEEUkm.jpg:large");
 		array_push($this->_arrayDrawing, $drawing);
 
 		$drawing = new Drawing(1, array("_Sally"), "", "", "", "", "", 2018, "December", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/2ad3a17d-3aa5-4d5f-887b-70cac5663cd9/dcubyj8-03d89001-e8bc-41d8-8051-7235e2b723b9.png/v1/fill/w_743,h_1075,q_70,strp/sally_csp_by_suzanfrogg_dcubyj8-pre.jpg");
