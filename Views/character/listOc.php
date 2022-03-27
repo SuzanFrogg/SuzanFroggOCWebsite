@@ -35,7 +35,7 @@
 		<p>
 		<?php foreach ($OCs as $o)
 		{		
-			if(get_class($o) == Character)
+			if(get_class($o) == 'Character')
 				echo "<a href=profilBASE.php?id=" . $o->getName() . "_" . $o->getFirstName() ."> <img src=\"" . $o->getThumbnail() . "\" alt=\"" . $o->getFirstName() . "\"/></a>";
 		}?>
 		</p>
@@ -46,7 +46,7 @@
 		<p>
 		<?php foreach ($OCs as $o)
 		{		
-			if(get_class($o) == CharacterAM)
+			if(get_class($o) == 'CharacterAM')
 				echo "<a href=profilAM.php?id=" .  $o->getName() . "_" . $o->getFirstName()  ."> <img src=\"" . $o->getThumbnail() . "\" alt=\"" . $o->getFirstName() . "\"/></a>";
 		}?>
 		</p>
@@ -58,7 +58,7 @@
 		<p>
 		<?php foreach ($OCs as $o)
 		{		
-			if(get_class($o) == CharacterUndertale)
+			if(get_class($o) == 'CharacterUndertale')
 				echo "<a href=profilUndertale.php?id=" .  $o->getName() . "_" . $o->getFirstName() ."> <img src=\"" . $o->getThumbnail() . "\" alt=\"" . $o->getFirstName() . "\"/></a>";
 		}?>
 		</p>
@@ -68,7 +68,7 @@
 		<p>
 		<?php foreach ($OCs as $o)
 		{		
-			if(get_class($o) == CharacterHNK)
+			if(get_class($o) == 'CharacterHNK')
 				echo "<a href=profilHNK.php?id=" .  $o->getName() . "_" . $o->getFirstName() ."> <img src=\"" . $o->getThumbnail() . "\" alt=\"" . $o->getFirstName() . "\"/></a>";
 		}?>
 		</p>

@@ -1,4 +1,5 @@
-<?php $url = "https://SuzanFroggOC.suzanfrogg.repl.co/"; ?>
+<!-- <?php $url = "https://SuzanFroggOC.suzanfrogg.repl.co/"; ?> -->
+<?php $url = "http://localhost/SuzanFroggOCWebsite/"; ?>
 
 <?php if($icon == null) 
 		$icon = "https://cloud.refsheet.net/users/avatars/000/007/661/small_square/PP_FB_juillet_2018_-G.png?1530559789";

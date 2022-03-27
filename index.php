@@ -3,8 +3,6 @@
 
 require_once("utils.php");
 
-
-//require_once("includes.php");
 require_once("Controllers/character.controller.php");
 //include_once("Controllers/video.controller.php");
 //include_once("Controllers/drawing.controller.php");
@@ -31,7 +29,7 @@ include_once("Views/head.php");
 	?>
 	<div class="content">
 		<p>Welcome on my OCs' references website. Have fun exploring.</p>
-
+		
 		<h1>Randoms OCs</h1>
 
 		<?php
